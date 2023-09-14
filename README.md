@@ -83,8 +83,8 @@ your app ID and Deno Deploy access token configured, you should be able to run:
 fly deploy
 ```
 
-In the app directory to send your app to the cloud, where it should happily
-connect to Deno KV.
+This will send your app to the cloud, where it should happily connect to 
+Deno KV.
 
 ## License
 
