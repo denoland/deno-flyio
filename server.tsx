@@ -6,12 +6,12 @@ interface Todo {
   text: string;
 }
 
+const kv = await Deno.openKv();
+
 // Connect to a Deno Deploy KV database
 // const dbId = "7dd0d727-3fb0-4c06-84ff-a7062921f940";
 // const dbUrl = `https://api.deno.com/databases/${dbId}/connect`;
 // const kv = await Deno.openKv(dbUrl);
-
-const kv = await Deno.openKv();
 
 const app = new Hono();
 
